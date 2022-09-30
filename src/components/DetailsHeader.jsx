@@ -1,7 +1,11 @@
+// Prop koşullarına göre Sanatçı ve Müzik verilerini gösterir.
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const DetailsHeader = ({ artistId, artistData, songData }) => (
+const DetailsHeader = ({ artistId, artistData, songData }) => {
+
+return (
   <div className="relative w-full flex flex-col">
     <div className="w-full bg-gradient-to-l from-transparent to-black sm:h-48 h-28" />
 
@@ -32,11 +36,13 @@ const DetailsHeader = ({ artistId, artistData, songData }) => (
             ? artistData?.artists[artistId].attributes?.genreNames[0]
             : songData?.genres?.primary}
         </p>
+        {songData && (
+        <p className="text-base text-gray-400 mt-2">Release Date : {songData?.releasedate}</p> )}
       </div>
     </div>
 
     <div className="w-full sm:h-44 h-24" />
   </div>
-);
+)};
 
 export default DetailsHeader;
