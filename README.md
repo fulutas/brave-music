@@ -1,6 +1,8 @@
 ## Brave Music App
 React 18, Redux, Redux/Toolkit, React Icons, Swiper
 
+### [Demo](brave-music.vercel.app)
+
 ## System Requirements
 
 To get started with development, you need to install few tools

@@ -9,7 +9,6 @@ const App = () => {
   const location = useLocation()
 
   const searchPageVisibility = location.pathname.includes('search') ? true : false
-  console.log(searchPageVisibility)
 
   return (
     <div className="relative flex">
