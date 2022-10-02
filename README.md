@@ -1,3 +1,6 @@
+## Brave Music App
+React 18, Redux, Redux/Toolkit, React Icons, Swiper
+
 ## System Requirements
 
 To get started with development, you need to install few tools
@@ -8,7 +11,7 @@ To get started with development, you need to install few tools
 
    To check your version of git, run:
 
-   ```shell
+   ```
     git --version
    ```
 
@@ -18,7 +21,7 @@ To get started with development, you need to install few tools
 
    To check your version of node, run:
 
-   ```shell
+   ```
     node --version
    ```
 
@@ -28,7 +31,7 @@ To get started with development, you need to install few tools
 
    To check your version of npm, run:
 
-   ```shell
+   ```
     npm --version
    ```
 
@@ -39,7 +42,7 @@ To set up a development environment, please follow these steps:
 
 Install the dependencies
    
-    ```shell
+    ```
      npm install
     ```
 
@@ -49,7 +52,7 @@ Install the dependencies
 
 Run the app
    
-    ```shell
+    ```
     npm run dev
     ```
 
